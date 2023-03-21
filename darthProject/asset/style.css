@@ -1,1 +1,99 @@
-/* Le fichier css géneral qu'on va mettre sur toutes les pages. Mettez rien dedans, c'est pour les couleurs et autres. */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#921212, rgb(36, 36, 36), black);
+    color: white;
+    font-family: sans-serif;
+}
+
+/* -------------------------nav-------------------------- */
+ul {
+    list-style-type: none;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+li {
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+#burgerMenuIcon {
+    margin: 15px 0 0 15px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.change {
+    display: block;
+}
+
+/* -------------------------body----------------------------------- */
+
+p {
+    font-size: larger;
+    text-align: justify;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+@media screen and (min-width: 530px) {
+    #burgerMenuIcon {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
+        list-style-type: none;
+        height: 5vh;
+        margin: 0;
+        min-height: 30px;
+    }
+
+    li {
+        display: flex;
+    }
+
+    .change {
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    ul {
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 50%;
+        left: 8%;
+        transform: translate(-50%, -50%);
+
+        height: 5vh;
+        min-height: 30px;
+    }
+
+    li {
+        margin-top: 15%;
+        font-size: 1.5em;
+    }
+
+    i {
+        margin: 0 5px;
+    }
+}

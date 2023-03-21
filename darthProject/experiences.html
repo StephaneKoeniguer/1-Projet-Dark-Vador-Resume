@@ -7,74 +7,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="asset/style.css">
     <link rel="stylesheet" href="asset/experiences.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a> </li>
-                <li><a href="skills.html">Compétences</a> </li>
-                <li><a href="experiences.html">Expériences</a> </li>
-                <li><a href="valeurs.html">Valeurs</a> </li>
-                <li><a href="monProjet.html">Projet</a> </li>
 
+        <nav class="navbar">
+            <i class="fa fa-bars" id="burgerMenuIcon" onclick="onClickMenu()"></i>
+            <ul class="navMenu" id="navMenu">
+                <li class="navItem"><a href="index.html">Home</a> </li>
+                <li class="navItem"><a href="skills.html">Compétences</a> </li>
+                <li class="navItem"><a href="experiences.html">Expériences</a> </li>
+                <li class="navItem"><a href="valeurs.html">Valeurs</a> </li>
+                <li class="navItem"><a href="monProjet.html">Projet</a> </li>
+                <li class="navItem">
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </li>
             </ul>
+
+
         </nav>
+
     </header>
 
     <main>
         <div>
 
-            <section class="sectionLightSideVal">
-                <h2 class="h2Val">Light Side</h2>
+            <section>
+                <h2>Light Side</h2>
 
-                <div class="divVal">
+                <div class="bothParts">
 
 
-                    <div class="contentBlockVal">
-                        <img src="asset/images/podracer.png" alt="darthVador" class="img1 imgCote">
+                    <div class="contentBlock">
+                        <img src="asset/images/podracer.png" alt="darthVador" class="imgLeft imgDesktop">
 
                         <div>
-                            <img src="asset/images/podracer.png" alt="darthVador" class="imgCentre">
-                            <h3>Pilote de podracer (5ans)</h3>
-                            <p class="pVal">
+                            <img src="asset/images/podracer.png" alt="darthVador" class="imgMobile">
+                            <h3>Pilote de podracer de: 8038 à 8046</h3>
+                            <p>
                                 Né sur une planète poubelle j'ai su m'adapter et je suis devenu le pilote de podraceur
                                 le plus rapide de tout tatooine.
                             </p>
                         </div>
                     </div>
 
-
-
-                    <div class="contentBlockVal">
+                    <div class="contentBlock">
                         <div>
-                            <img src="asset/images/padawan.png" alt="darthVador" class="imgCentre">
-                            <h3> Padawan puis Chevalier de l'ordre Jedi de: 32 av. BY à 22 av. BY (10ans)</h3>
-                            <p class="pVal"> Début de ma formation au centre de formation des jedis en difficulté. J'ai
-                                passé la majorité de ma scolarité a me faire harceler par une cacahuète verte de 200ans
-                                pour 1m10, qui parlait à lenvers et qui me disait que les fleurs c'était le mal.</p>
+                            <img src="asset/images/padawan.png" alt="darthVador" class="imgMobile">
+                            <h3> Padawan puis Chevalier de l'ordre Jedi de: 8046 à 8056</h3>
+                            <p> Début de ma formation au centre de formation pour jedi en difficulté. J'ai
+                                passé la majorité de ma scolarité à me faire harceler par une cacahuète verte de 900ans
+                                pour 70cm, qui parlait à l'envers.</p>
                         </div>
-                        <img src="asset/images/padawan.png" alt="darthVador" class="img2 imgCote">
+                        <img src="asset/images/padawan.png" alt="darthVador" class="imgRight imgDesktop">
                     </div>
 
-
-
-                    <div class="contentBlockVal">
-                        <img src="asset/images/vadorFleurs.png" alt="darthVador" class="img1 imgCote">
+                    <div class="contentBlock">
+                        <img src="asset/images/vadorFleurs.png" alt="darthVador" class="imgLeft imgDesktop">
                         <div>
-                            <img src="asset/images/vadorFleurs.png" alt="darthVador" class="imgCentre">
-                            <h3> CAP Fleuriste, en Alternance chez BRRRZZZLL Fleurs (2ans)</h3>
-                            <p class="pVal">
+                            <img src="asset/images/vadorFleurs.png" alt="darthVador" class="imgMobile">
+                            <h3> CAP Fleuriste en Alternance chez BRRRZZZLL Fleurs de: 8056 à 8058</h3>
+                            <p>
 
-                                Saoulé des jedi et de leur désamour pour la vie j'ai effectué un CAP fleuriste. Je
-                                vivais
-                                avec ma copine padmé dans une ZAD en auto gestion sur la Planète LANDE pour lutter
-                                contre le gouvernment tyranique de la république qui voulait transfomer cette magnifique
+                                J'ai effectué un CAP fleuriste pour me reconnecter à la nature.
+                                Nous vivions ma copine Padmé et moi dans une ZAD en auto gestion sur la Planète LANDE
+                                pour
+                                lutter
+                                contre le gouvernment tyranique de la 5ème République qui voulait transfomer cette
+                                magnifique
                                 planète
-                                maraicage infestée de moustiques en parking.</p>
+                                marécage infestée de moustiques en parking.</p>
                         </div>
                     </div>
 
@@ -84,69 +95,64 @@
 
 
             <hr>
-            <section class="sectionDarkSideVal">
-                <h2 class="h2Val">Dark Side</h2>
-                <div class="divVal">
+            <section>
+                <h2>Dark Side</h2>
+                <div class="bothParts">
 
 
-
-
-
-                    <div class="contentBlockVal">
+                    <div class="contentBlock">
                         <div>
-                            <img src="asset/images/vadorArmy.png" alt="darthVador" class="imgCentre">
-                            <h3> commandant de la 501e Légion (4ans)</h3>
-                            <p class="pVal">
-                                Les jedis avaient raison, gambader dans les prairies avec ma bien aimée et
-                                vendre des
-                                fleurs m'a conduits a la voie du mal. Du coup je l'ai tué et j'ai exterminé tous les
-                                hippies de la ZAD... Puis à la tête de la 501e Légion, les
-                                jedis. Ils avaient qu'à pas avoir raison.</p>
+                            <img src="asset/images/vadorArmy.png" alt="darthVador" class="imgMobile">
+                            <h3> commandant de la 501e Légion de: 8058 à 8060</h3>
+                            <p>
+                                Devenu dément après avoir decouvert que Casimir était un imposteur j'ai tué Padmé et
+                                tous les
+                                hippies de la ZAD... Puis à la tête de la 501e Légion, j'ai également exterminé les
+                                jedis. Ils m'avaient caché la vérité.</p>
                         </div>
-                        <img src="asset/images/vadorArmy.png" alt="darthVador" class="img2 imgCote">
+                        <img src="asset/images/vadorArmy.png" alt="darthVador" class="imgRight imgDesktop">
                     </div>
 
-                    <div class="contentBlockVal">
-                        <img src="asset/images/deathStar.png" alt="darthVador" class="img1 imgCote">
+                    <div class="contentBlock">
+                        <img src="asset/images/deathStar.png" alt="darthVador" class="imgLeft imgDesktop">
 
                         <div>
-                            <img src="asset/images/deathStar.png" alt="darthVador" class="imgCentre">
-                            <h3>Vitrificateur en chef de l'étoile de la mort, de: 3 ap.BY à 20ap.BY</h3>
-                            <p class="pVal">
-                                Pour assouvir ma soif de sang causée par trop d'air pur, d'amour et de fleurs j'ai
-                                décidé
-                                de fonder
-                                avec mon maitre Darth Sidious le second Empire Sith. En lutte permanante contre
-                                la republique, mon role consistait à bruler ou à faire exploser leurs planètes dans le
-                                but dépargner à la galaxie la pollution générée par leurs parkings.
+                            <img src="asset/images/deathStar.png" alt="darthVador" class="imgMobile">
+                            <h3>Missionaire en chef de L'étoile de la Vérité, de: 8060 8074</h3>
+                            <p>
+                                Pour assouvir ma soif de sang provoquée par la révélation du cas Casimir j'ai,
+                                avec mon maitre Darth Sidious, fondé le Second Empire Sith. En lutte permanante contre
+                                la 5ème République, nous propagions la vérité sur cet imposteur et rasions les mondes
+                                récalcitrants.
                             </p>
                         </div>
                     </div>
 
 
-                    <div class="contentBlockVal">
+                    <div class="contentBlock">
 
                         <div>
-                            <img src="asset/images/vadorPain.png" alt="darthVador" class="imgCentre">
-                            <h3>lancement de ma chaine de boulangerie DARLD BDARR</h3>
-                            <p class="pVal">Après avoir été laissé pour mort lors de la destruction de l'étoile noire,
-                                lassé des fleurs et de toaster des mondes je me suis tourné vers le toastage du pain.
+                            <img src="asset/images/vadorPain.png" alt="darthVador" class="imgMobile">
+                            <h3>Création de la chaine de boulangerie DARLD BDARR de: 8075 à 8084</h3>
+                            <p>Laissé pour mort lors de la destruction de L'étoile Noire,
+                                enfin en paix avec Casimir et lassé de toaster des mondes je me suis tourné vers le
+                                toastage du pain.
                                 D'abord en amateur, puis en tant qu'auto entrepreneur. Les boulangeries patisseries
-                                DARLD
-                                BDARR couvrent désormait toute la péripherie sud de la galaxie et compte plus de 150000
-                                points de ventes répartits sur plus de 11000systèmes..</p>
+                                DARLD BDARR couvrent désormais toute la péripherie sud de la galaxie et compte plus de
+                                150000
+                                points de vente répartis sur plus de 11000 systèmes..</p>
                         </div>
-                        <img src="asset/images/vadorPain.png" alt="darthVador" class="img2 imgCote">
+                        <img src="asset/images/vadorPain.png" alt="darthVador" class="imgRight imgDesktop">
                     </div>
-                    <div class="contentBlockVal">
-                        <img src="asset/images/logoEmpirePhp.png" alt="darthVador" class="img1 imgCote">
+                    <div class="contentBlock">
+                        <img src="asset/images/logoEmpirePhp.png" alt="darthVador" class="imgLeft imgDesktop">
                         <div>
-                            <img src="asset/images/logoEmpirePhp.png" alt="darthVador" class="imgCentre">
-                            <h3> Formation PHP Wild Code School </h3>
+                            <img src="asset/images/logoEmpirePhp.png" alt="darthVador" class="imgMobile">
+                            <h3> Formation PHP Wild Code School de: 8084 à 8085</h3>
 
-                            <p class="pVal"> Pour permettre à mes petits pains de se vendre au dela de la galaxie il me
+                            <p> Pour permettre à mes petits pains de se vendre au-delà de la galaxie il me
                                 faudra maitriser la puissance de PHP et faire de jolis sith (lol). C'est pourquoi suite
-                                a une formation de 5mois à la Wild Code School je tiens à integrer l'empire PHP pour
+                                à une formation de 5mois à la Wild Code School je tiens à integrer l'Empire PHP pour
                                 une alternance de 1an.
                             </p>
                         </div>
@@ -160,6 +166,9 @@
 
     </main>
 
+
+
+    <script src="asset/javascript/index.js"></script>
 </body>
 
 </html>
