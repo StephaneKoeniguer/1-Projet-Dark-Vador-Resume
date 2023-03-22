@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+* {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(#921212, rgb(36, 36, 36), black);
+    background-color: linear-gradient(#921212, black);
     color: white;
     font-family: sans-serif;
 }
@@ -23,10 +30,6 @@ li {
     font-size: 20px;
 }
 
-li:hover {
-    font-weight: bold;
-}
-
 #burgerMenuIcon {
     margin: 15px 0 0 15px;
     cursor: pointer;
@@ -39,13 +42,64 @@ li:hover {
 
 /* -------------------------body----------------------------------- */
 
+.divPart {
+    padding: 0 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
 p {
     font-size: larger;
     text-align: justify;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+strong {
+    border-bottom: 2px solid white;
+}
+
 h2 {
     font-size: xx-large;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+    height: 3px;
+    background-color: rgb(165, 165, 165);
+    border: none;
+}
+
+
+
+.contact {
+    text-decoration: none;
+}
+
+.contact:hover {
+    color: black;
+}
+
+.divBtn {
+    margin-top: 10%;
+    width: 30%;
+    padding: 3%;
+    border-radius: 50px;
+    text-align: center;
+    background-color: var(--secondary--color);
+    border: 1px solid white;
+}
+
+.divBtn:hover {
+    border: black;
+    display: block;
+    transform: scale(1.1);
+    transition: 200ms;
 }
 
 @media screen and (min-width: 530px) {
@@ -75,6 +129,10 @@ h2 {
 
 
 @media screen and (min-width: 900px) {
+    .divPart {
+        padding: 0 2vw 10vh 17vw;
+    }
+
     ul {
         align-items: start;
         display: flex;
@@ -86,6 +144,7 @@ h2 {
 
         height: 5vh;
         min-height: 30px;
+        z-index: 500000;
     }
 
     li {
@@ -95,5 +154,9 @@ h2 {
 
     i {
         margin: 0 5px;
+    }
+
+    .banniere {
+        margin: 0;
     }
 }
