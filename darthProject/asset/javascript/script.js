@@ -4,6 +4,7 @@ const animation = window.Typed;
     strings : ["Je suis Coder", "Je suis Master", "Je suis Father"],
     loop : true,
     typeSpeed : 100,
-    backSpeed : 50,
+    backSpeed : 80,
+    backDelay : 1000,
     loopCount : 10
     });
