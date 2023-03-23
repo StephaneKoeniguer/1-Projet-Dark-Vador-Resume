@@ -35,6 +35,7 @@ p {
 }
 
 .livre {
+    color: var(--secondary--color);
     border-bottom: 2px solid var(--secondary--color);
     text-decoration: none;
 }
