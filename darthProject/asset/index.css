@@ -65,14 +65,14 @@ span {
     }
 
     /* Texte */
-    main{
+    main {
         width: 60%;
-        position:absolute;
+        position: absolute;
         bottom: 5%;
         right: 5%
     }
 
-    main h1{
+    main h1 {
         font-size: 3em;
         position: absolute;
         bottom: 100%;
@@ -97,7 +97,7 @@ span {
         text-decoration: none;
     }
 
-    .contact:hover{
+    .contact:hover {
         border-bottom: 1px solid var(--primary-color);
     }
 
