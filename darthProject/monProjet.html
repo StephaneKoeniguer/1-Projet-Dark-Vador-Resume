@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -64,36 +63,29 @@
 
     </div>
 
-
-
     <form action="monProjet.html" method="post" class="divPart">
       <h1 id="contact"><strong>Contact</strong></h1>
+        <div class="container">
+          <div class="formField">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" />
+          </div>
 
-      <div class="container">
-
-        <div class="formField">
-          <label for="name">Nom :</label>
-          <input type="text" id="name" />
+          <div class="formField">
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" />
+          </div>
         </div>
 
         <div class="formField">
-          <label for="email">E-mail :</label>
-          <input type="email" id="email" />
+          <label for="message">Message :</label>
+          <textarea id="message" rows="8"></textarea>
         </div>
-
-      </div>
-
-      <div class="formField">
-        <label for="message">Message :</label>
-        <textarea id="message" rows="8"></textarea>
-      </div>
-      <div>
-        <button type="submit">Click Me!</button>
-      </div>
-    </form>
-
-  </main>
-  <script src="asset/javascript/index.js"></script>
-</body>
-
+        <div>
+          <button type="submit">Click Me!</button>
+        </div>
+      </form>
+    </main>
+    <script src="asset/javascript/index.js"></script>
+  </body>
 </html>
