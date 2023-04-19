@@ -1,4 +1,4 @@
-# Le CV de Dakr Vador
+# Le CV de Dark Vador 
 
 Le CV de Dark Vador est un site vitrine en HTML/CSS et Javascript qui met en avant le parcour du personnage iconique de l'univers Star Wars.
 
