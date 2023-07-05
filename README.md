@@ -1,6 +1,6 @@
 # Le CV de Dark Vador 
 
-[Le CV de Dark Vador](https://stephanekoeniguer.github.io/Dark-Vador-Resume/index.html) est un site vitrine en HTML/CSS et Javascript qui met en avant le parcours du personnage iconique de l'univers Star Wars.
+[Le CV de Dark Vador](https://stephanekoeniguer.github.io/1-Projet-Dark-Vador-Resume/) est un site vitrine en HTML/CSS et Javascript qui met en avant le parcours du personnage iconique de l'univers Star Wars.
 
 # Contexte de développement
 
